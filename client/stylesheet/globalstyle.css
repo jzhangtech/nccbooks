@@ -1,0 +1,41 @@
+/*
+brand:#ed6b52;
+
+*/
+
+body{
+	background-image:url('background/bg1.jpg');
+	font-family: 'bitter',serif;
+}
+
+.center{
+    display: table;
+    margin: 0 auto;
+}
+.btn-custom1{
+	border-radius: 20px;
+   	margin-top: 30px;
+   	border-color: #ef9f69;
+    background-color: white;
+    color: #ef9f69;
+    padding: 10px 20px 10px 20px;
+}
+.btn-custom1:hover,.btn-custom1:focus{
+	
+	border-color: white;
+    background-color: #ef9f69;
+    color: white;
+}
+
+.hide{
+    display:none;
+}
+
+
+.fwb {
+    font-weight: bold;
+}
+
+.tdu {
+    text-decoration: underline;
+}

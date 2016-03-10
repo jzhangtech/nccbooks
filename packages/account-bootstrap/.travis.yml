@@ -1,0 +1,14 @@
+sudo: required
+language: node_js
+node_js:
+  - "0.10"
+<<<<<<< HEAD
+
+before_install:
+  - "curl -L http://git.io/ejPSng | /bin/sh"
+=======
+before_install:
+  - "curl -L http://git.io/ejPSng | /bin/sh"
+env:
+  - TEST_COMMAND=meteor
+>>>>>>> c68aa93976b7b7d2aa9dd820828e3dcfb805109a
