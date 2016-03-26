@@ -1,10 +1,38 @@
 <template name="index">
+	
 	<div id="main-content">
+		
+		<div id="section1">
+			<div class="col-xs-6 panel-custom list-panel ">
+				<h1 class="center">List for Free</h1>
+				<div class="description center fwb">
+					List used textbooks for free.
+				</div>
+				<div class="center btn btn-custom2 margin_t-15">
+					List a Textbook
+				</div>
+				<img class="center margin_t-15" src="image/book1.png"/>
+
+			</div>
+			<div class="col-xs-6 panel-custom buy-panel">
+				<h1 class="center">Buy for Less</h1>
+				<div class="description center fwb">
+					Find the textbooks you need.
+				</div>
+				<div class="center btn btn-custom2 margin_t-15">
+					Find your Textbook
+				</div>
+				<img class="center margin_t-15" src="image/book1.png"/>
+				
+			</div>
+		</div>
+		<div id="section2">
 		{{#each major}}
 		<span class="btn btn-custom1" >
 			{{this.name}}
 		</span>
 		{{/each}}
+		</div>
 	</div>
 	
 </template>

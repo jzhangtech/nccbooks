@@ -1,8 +1,31 @@
 #main-content{
-	background:url('background/bg3.png') repeat 0 0;
+	background-image:url('background/bg1.jpg');
 	-moz-box-shadow: 0 2px 3px #cba987;
     -webkit-box-shadow: 0 2px 3px #cba987;
     box-shadow: 0 2px 3px #cba987;
     z-index: 9999;
-    padding: 20px 50px 30px 50px;
+   /* margin: 0px 20px;*/
+  
+}
+
+#section1{
+	color:#7F5A52;
+}
+
+
+
+
+.panel-custom{
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+.panel-custom h1{
+	font-family:'Nunito',verdana,arial,sans-serif;
+	font-size: 45px;
+	font-weight: 300;
+}
+.panel-custom .description{
+	padding-top:5px;
+	font-size: 14px;
 }
