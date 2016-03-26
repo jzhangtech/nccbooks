@@ -1,0 +1,8 @@
+#main-content{
+	background:url('background/bg3.png') repeat 0 0;
+	-moz-box-shadow: 0 2px 3px #cba987;
+    -webkit-box-shadow: 0 2px 3px #cba987;
+    box-shadow: 0 2px 3px #cba987;
+    z-index: 9999;
+    padding: 20px 50px 30px 50px;
+}

@@ -96,14 +96,7 @@ Meteor.methods({
 
     // Possibly removes the profile field
     options.profile.image = "/images/nopic.png";
-    options.profile.leagues = [];
-    options.profile.notifications = [];
-    options.profile.recentPlayers = ['demarcomurray', 'leveonbell'];
-    options.profile.basketballScore = 0;
-    options.profile.baseballScore = 0;
-    options.profile.footballScore = 0;
-    options.profile.hockeyScore = 0;
-    options.profile.expertStatus='Not An Expert';
+ 
     
     if (_.isEmpty(options.profile)) {
       delete options.profile;
