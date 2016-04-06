@@ -6,14 +6,11 @@ brand:#ed6b52;
 */
 
 body{
-	
-    /*background:url('background/bg3.png') repeat 0 0;*/
+	background:url('background/bg3.png') repeat 0 0;
 	font-family: 'bitter',serif;
 }
-
-.placeholder{
-    background:url('background/bg3.png') repeat 0 0;
-
+a{
+    cursor:pointer;
 }
 
 .center{
@@ -22,7 +19,7 @@ body{
 }
 .btn-custom1{
 	border-radius: 20px;
-   	margin-top: 30px;
+   	margin-top: 25px;
    	border-color: #ef9f69;
     background-color: white;
     color: #ef9f69;
