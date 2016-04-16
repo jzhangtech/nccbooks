@@ -7,3 +7,16 @@
 	margin-top: 15px;
 
 }
+
+.hide{
+    display:none;
+}
+
+
+.fwb {
+    font-weight: bold;
+}
+
+.tdu {
+    text-decoration: underline;
+}

@@ -1,9 +1,25 @@
 <template name="textbooks">
-	<h2>Hello</h2>
-	{{#each textbook}}
-		{{this.name}}
-		{{else}}
-	{{/each}}
+	{{>searchbooks}}
+	
+</template>
 
 
+
+<template name="searchbooks">
+	<div id="searchbooks-template">
+		<div class="center">
+			<button class="btn" style="background:white;">
+				<span style="color:#ed6b52;" class="glyphicon glyphicon-search"></span>
+			</button>
+			<input type="text" class="form-control" id="subject-query" placeholder="Search"/>
+		</div>
+
+		<div>
+			{{#each major}}
+			<span class="btn btn-custom1" >
+				{{this.name}}
+			</span>
+			{{/each}}
+		</div>
+	</div>
 </template>

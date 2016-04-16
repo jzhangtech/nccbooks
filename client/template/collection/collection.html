@@ -1,0 +1,26 @@
+<template name="collection">
+	<div id="collection-template">
+		<h2>Listing</h2>
+		<div class="table-responsive">
+		  	<table class="table table-bordered table-hover list-table">
+		  		<th>Title </th>
+		  		<th>Category</th>
+		  		<th>Course</th>
+		  		<th>Price</th>
+		  		<th>Date Posted</th>
+		  		<th>Active</th>
+		  		{{#each textbook}}
+		  		<tr>
+					<td>Title : {{this.name}}</td>
+					<td>Category : {{this.name}}</td>
+					<td>CourseID : {{this.name}}</td>
+					<td>Price : {{this.name}}</td>
+					<td> : {{this.name}}</td>
+				</tr>
+				{{else}}
+				No recent Listings
+				{{/each}}
+			</table>
+		</div>
+	</div>
+</template>

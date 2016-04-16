@@ -2,7 +2,7 @@
 
 //  document.getElementById('notInLeague').style.display = 'block';
 
-
+//{{#if currentUser}}
 // !important = Session.set("roomname", e.target.id);
 
 // click event boiler-plate

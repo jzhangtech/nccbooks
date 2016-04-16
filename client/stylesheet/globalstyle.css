@@ -1,7 +1,13 @@
 /*
-brand:#ed6b52;
+brand-color:
+#ed6b52;
 #FF7358
 #CC5C47
+
+background
+paper-
+wood-
+header-bg3
 
 */
 
@@ -75,4 +81,20 @@ a{
 
 .tdu {
     text-decoration: underline;
+}
+
+.placeholder{
+    background:url('background/bg3.png') repeat 0 0;
+    color:#695b4d;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    font-size: 14px;
+    line-height: 1.714285714286;
+    font-style: italic;
+    text-align: center;
+    clear:both;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
