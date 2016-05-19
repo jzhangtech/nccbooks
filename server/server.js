@@ -1,66 +1,120 @@
 if (Meteor.isServer) {
   Meteor.startup(function () {
     // code to run on server at startup
-    majors=[{
+    
+
+    var majors=[{
     	name:'Accounting'
     },{
     	name:'Anthropology'
-    },
-  	'Architecture',
-  	'Art',
-  	'Biology',
-  	'Business',
-	'Chemistry',
-	'College Forum',
-	'Communication and Speech',
-	'Computer Aided Drafting',
-	'Computer Science',
-	'Construction Technology',
-	'Criminal Justice',
-	'Early Childhood Education',
-	'Economics',
-	'Engineering Science', 
-	'English',
-	'ESL',
-	'French',
-	'Freshman Seminar',
-	'General Studies',
-	'Geography',
-	'Geology',
-	'Graphic Design',
-	'Health Info Mgmt Technology',
-	'Health and Physical Education',
-	'History',
-	'Hospitality Management',
-	'Human Services',
-	'Humanities',
-	'Interdisciplinary Studies',
-	'Interior Design',
-	'International Study/Travel',
-	'Italian',
-	'Japanese',
-	'Kids on Campus',
-	'Paralegal',
-	'Mathematics',
-	'Medical Assisting',
-	'Music',
-	'Nursing',
-	'Philosophy',
-	'Physical Therapist Assistant',
-	'Physics',
-	'Political Science',
-	'Psychology',
-	'Public Service',
-	'Respiratory Care',
-	'Science',
-	'Sociology',
-	'Spanish',
-	'Theater',
-	'Veterinary Technology',
-	'Womens Studies',
-	];
+    },{
+    	name:'Architecture'
+	},{
+		name:'Art'
+	},{
+		name:'Biology'
+	},{
+  		name:'Business'
+  	},{
+		name:'Chemistry'
+	},{
+		name:'College Forum'
+	},{
+		name:'Communication and Speech'
+	},{
+		name:'Computer Aided Drafting'
+	},{
+		name:'Computer Science'
+	},{
+		name:'Construction Technology'
+	},{
+		name:'Criminal Justice'
+	},{
+		name:'Early Childhood Education'
+	},{
+		name:'Economics'
+	},{
+		name:'Engineering Science'
+	},{ 
+		name:'English'
+	},{
+		name:'ESL'
+	},{
+		name:'French'
+	},{
+		name:'Freshman Seminar'
+	},{
+		name:'General Studies'
+	},{
+		name:'Geography'
+	},{
+		name:'Geology'
+	},{
+		name:'Graphic Design'
+	},{
+		name:'Health Info Mgmt Technology'
+	},{
+		name:'Health and Physical Education'
+	},{
+		name:'History'
+	},{
+		name:'Hospitality Management'
+	},{
+		name:'Human Services'
+	},{
+		name:'Humanities'
+	},{
+		name:'Interdisciplinary Studies'
+	},{
+		name:'Interior Design'
+	},{
+		name:'International Study/Travel'
+	},{
+		name:'Italian'
+	},{
+		name:'Japanese'
+	},{
+		name:'Kids on Campus'
+	},{
+		name:'Paralegal'
+	},{
+		name:'Mathematics'
+	},{
+		name:'Medical Assisting'
+	},{
+		name:'Music'
+	},{
+		name:'Nursing'
+	},{
+		name:'Philosophy'
+	},{
+		name:'Physical Therapist Assistant'
+	},{
+		name:'Physics'
+	},{
+		name:'Political Science'
+	},{
+		name:'Psychology'
+	},{
+		name:'Public Service'
+	},{
+		name:'Respiratory Care'
+	},{
+		name:'Science'
+	},{
+		name:'Sociology'
+	},{
+		name:'Spanish'
+	},{
+		name:'Theater'
+	},{
+		name:'Veterinary Technology'
+	},{
+		name:'Womens Studies'
+	}]
+	
 
 
 	
-	  });
+	});
 }
