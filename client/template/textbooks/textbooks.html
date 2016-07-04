@@ -1,6 +1,5 @@
 <template name="textbooks">
 	{{>searchbooks}}
-	
 </template>
 
 
@@ -14,11 +13,11 @@
 			<input type="text" class="form-control" id="subject-query" placeholder="Search"/>
 		</div>
 
-		<div>
+		<div class="subject-wrapper">
 			{{#each major}}
-			<span class="btn btn-custom1" >
+			<a href="textbooks/q={{this.name}}" class="btn btn-custom1" >
 				{{this.name}}
-			</span>
+			</a>
 			{{/each}}
 		</div>
 	</div>

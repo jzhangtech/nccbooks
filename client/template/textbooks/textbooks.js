@@ -1,7 +1,8 @@
 Template.searchbooks.created = function() {
-   Session.setDefault("query", " ");
+   Session.setDefault("query", "");
 
 };
+
 Template.searchbooks.events({
   'input #subject-query': function(e) {
     var input =  document.getElementById('subject-query').value;
@@ -18,3 +19,5 @@ Template.searchbooks.helpers({
     return Majors.find({name:{$regex: regex}});
   }
 });
+
+

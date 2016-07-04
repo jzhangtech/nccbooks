@@ -1,0 +1,32 @@
+<template name='query'>
+	<div id='query-template'>
+		<table>
+			<th>Title</th>
+			<th>Title</th>
+			<th>Title</th>
+			<th>Title</th>
+			<th>Title</th>
+			<th>Title</th>
+			<th>Title</th>
+				{{#each this}}	
+			<tr>
+	
+		<td>
+			Id{{this._id}}</td>
+			<td>
+			title{{this.name}}</td>
+			<td>
+			subject{{this.subj}}</td>
+			<td>
+			contact{{this.contact}}</td>
+			<td>crseId{{this.crseId}}</td>
+			<td>name{{this.name}}</td>
+			<td>cost{{this.price}}</td>
+	
+			</tr>
+			{{/each}}
+		</table>
+		
+	</div>
+</template>
+
